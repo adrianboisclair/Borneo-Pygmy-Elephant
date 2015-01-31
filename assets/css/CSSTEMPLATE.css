@@ -1,0 +1,488 @@
+/******prerequisites******/
+*,body /deep/ h1,.main2 /deep/ * {
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+}
+
+*,body /deep/ * {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+body {
+    margin: 0 auto;
+}
+
+body /deep/ a {
+    text-decoration: none;
+}
+/******content******/
+.content {
+    margin: 0 36px;
+}
+/******core-icon******/
+body /deep/ core-icon {
+    margin: 0 8px 0 0;
+}
+/******copyright******/
+.copyright {
+    background-color: #cccccc;
+    height: 64px;
+    margin: 0 auto;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+.copyright span {
+    display: block;
+    font-size: 16px;
+    margin: 22px 0 0 0;
+    text-align: center;
+}
+/******core-menu******/
+body /deep/ ::-webkit-scrollbar {
+    width: 15px;
+}
+
+body /deep/ ::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+    background-color: rgba(100,100,100,0.5);
+    border: 5px solid rgba(0,0,0,0);
+    border-radius: 100px;
+}
+
+body /deep/ ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(100,100,100,0.8);
+}
+/******core-selected******/
+body /deep/ .core-selected {
+    font-weight: 300;
+}
+/******core-toolbar******/
+body /deep/ [tool] {
+    font-size: 40px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+body /deep/ core-toolbar {
+    height: 100px;
+}
+
+body /deep/ core-toolbar core-icon-button /deep/ core-icon {
+    margin: 0;
+}
+/******dt******/
+.dt {
+    border-collapse: collapse;
+    display: table;
+    font-size: 20px;
+    max-width: 100%;
+    table-layout: fixed;
+    width: 50%;
+}
+
+.dt td {
+    border: 2px solid rgb(200,200,200);
+    display: table-cell;
+    overflow-x: hidden;
+    padding: 16px;
+    text-align: left;
+    text-overflow: ellipsis;
+}
+
+.dt th {
+    background-color: rgb(245,245,245);
+    border: 2px solid rgb(200,200,200);
+    display: table-cell;
+    font-weight: bold;
+    overflow-x: hidden;
+    padding: 16px;
+    text-align: right;
+    text-overflow: ellipsis;
+}
+
+.win {
+    background-color: rgb(0,200,0);
+}
+
+.tie {
+    background-color: rgb(255,100,0);
+}
+/******header******/
+body /deep/ .header {
+    color: rgb(100,100,100);
+    display: block;
+    font-size: 32px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    position: relative;
+    width: 100%;
+}
+
+body /deep/ .header span {
+    margin-left: 24px;
+}
+/******home******/
+body /deep/ a paper-item,body /deep/ a paper-item core-icon {
+    color: black;
+}
+
+body /deep/ #home paper-item,body /deep/ #home paper-item core-icon {
+    transition: background-color .35s;
+}
+
+body /deep/ #reviews paper-item,body /deep/ #reviews paper-item core-icon {
+    transition: background-color .35s;
+}
+
+body /deep/ #technews paper-item,body /deep/ #technews paper-item core-icon {
+    transition: background-color .35s;
+}
+
+body /deep/ #deviceduels paper-item,body /deep/ #deviceduels paper-item core-icon {
+    transition: background-color .35s;
+}
+
+body /deep/ #spec paper-item,body /deep/ #spec paper-item core-icon {
+    transition: background-color .35s;
+}
+
+body /deep/ .social paper-item,body /deep/ .social paper-item core-icon {
+    transition: background-color .35s;
+}
+
+body /deep/ #home:hover paper-item,body /deep/ #home:hover core-icon,
+body /deep/ #reviews:hover paper-item,body /deep/ #reviews:hover core-icon,
+body /deep/ #technews:hover paper-item,body /deep/ #technews:hover core-icon,
+body /deep/ #deviceduels:hover paper-item,body /deep/ #deviceduels:hover core-icon,
+body /deep/ #spec:hover paper-item,body /deep/ #spec:hover core-icon,
+body /deep/ .social:hover paper-item,body /deep/ .social:hover core-icon {
+    color: white !important;
+    transition: 0;
+}
+
+body /deep/ #home:hover paper-item {
+    background-color: #0091ea;
+}
+
+body /deep/ #reviews:hover paper-item {
+    background-color: #ef6c00;
+}
+
+body /deep/ #technews:hover paper-item {
+    background-color: #259b24;
+}
+
+body /deep/ #deviceduels:hover paper-item {
+    background-color: #4a148c;
+}
+
+body /deep/ #spec:hover paper-item {
+    background-color: #b71c1c;
+}
+
+body /deep/ .home paper-item,body /deep/ .home core-icon {
+    color: #0091ea;
+    font-weight: bold !important;
+}
+
+body /deep/ .reviews paper-item,body /deep/ .reviews core-icon {
+    color: #ef6c00;
+    font-weight: bold !important;
+}
+
+body /deep/ .technews paper-item,body /deep/ .technews core-icon {
+    color: #259b24;
+    font-weight: bold !important;
+}
+
+body /deep/ .deviceduels paper-item,body /deep/ .deviceduels core-icon {
+    color: #4a148c;
+    font-weight: bold !important;
+}
+
+body /deep/ .specs paper-item,body /deep/ .specs core-icon {
+    color: #b71c1c;
+    font-weight: bold !important;
+}
+
+#main /deep/ core-toolbar {
+    background-color: #0091ea;
+    color: white !important;
+}
+
+#main /deep/ hr {
+    background-color: #0091ea;
+    border: 0;
+    color: #0091ea;
+    height: 2px;
+}
+
+#main paper-button {
+    background-color: #0091ea;
+}
+
+#main2 /deep/ core-toolbar {
+    background-color: #ef6c00;
+    color: white !important;
+}
+
+#main2 /deep/ hr {
+    background-color: #ef6c00;
+    border: 0;
+    color: #ef6c00;
+    height: 2px;
+}
+
+#main2 paper-button {
+    background-color: #ef6c00;
+}
+
+#main3 /deep/ core-toolbar {
+    background-color: #259b24;
+    color: white !important;
+}
+
+#main3 /deep/ hr {
+    background-color: #259b24;
+    border: 0;
+    color: #259b24;
+    height: 2px;
+}
+
+#main3 paper-button {
+    background-color: #259b24;
+}
+
+#main4 /deep/ core-toolbar {
+    background-color: #4a148c;
+    color: white !important;
+}
+
+#main4 /deep/ hr {
+    background-color: #4a148c;
+    border: 0;
+    color: #4a148c;
+    height: 2px;
+}
+
+#main4 paper-button {
+    background-color: #4a148c;
+}
+
+#main5 /deep/ core-toolbar {
+    background-color: #b71c1c;
+    color: white !important;
+}
+
+#main5 /deep/ hr {
+    background-color: #b71c1c;
+    border: 0;
+    color: #b71c1c;
+    height: 2px;
+}
+
+#main5 paper-button {
+    background-color: #b71c1c;
+}
+
+#main6 /deep/ core-toolbar {
+    background-color: #607d8b;
+    color: white !important;
+}
+
+#main6 /deep/ hr {
+    background-color: #607d8b;
+    border: 0;
+    color: #607d8b;
+    height: 2px;
+}
+
+#main6 paper-button {
+    background-color: #607d8b;
+}
+
+body /deep/ .social:hover paper-item {
+    background-color: #607d8b;
+}
+
+body /deep/ .social:hover paper-item,.social:hover core-icon {
+    color: white;
+}
+/******h1******/
+body /deep/ h1 {
+    display: inline-block;
+    vertical-align: top;
+}
+/******h2******/
+h2 {
+    font-size: 36px;
+}
+/******link******/
+.link {
+    color: #0091ea;
+}
+/******logo******/
+body /deep/ #logo {
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+}
+/******main******/
+body /deep/ .main {
+    background-color: white;
+    border-radius: 4px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+body /deep/ .main img {
+    height: auto;
+    max-height: 375px;
+    max-width: 100%;
+    width: auto;
+}
+
+.mainhidden {
+    background-color: white;
+    border-radius: 4px;
+    height: 62px;
+    margin: 0 auto;
+    width: 90%;
+}
+/******main2******/
+.main2 {
+    margin-left: -24px;
+    padding-bottom: 20.8px;
+    text-align: center;
+}
+/*****medium******/
+body /deep/ .medium {
+    background-repeat: no-repeat;
+    color: black;
+    display: inline-block;
+    height: 256px;
+    margin: 24px 0 0 24px;
+    overflow: hidden;
+    text-decoration: none;
+    width: 636px;
+}
+
+body /deep/ .medium .block {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    display: block;
+    height: 256px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    white-space: normal;
+    width: 100%;
+    -webkit-transform: translate3d(0,208px,0);
+    transform: translate3d(0,208px,0);
+    -webkit-transition: -webkit-transform .25s ease-out;
+    transition: transform .25s ease-out;
+}
+
+body /deep/ .medium:hover .block {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-transition: -webkit-transform .25s ease-out;
+    transition: transform .25s ease-out;
+}
+
+body /deep/ .medium .block h6 {
+    color: white;
+    font-size: 20.8px;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+body /deep/ .medium .block .info {
+    display: block;
+    color: white;
+    font-size: 16px;
+    margin: 0 8px;
+    text-align: left;
+}
+/******paper-button******/
+body /deep/ paper-button {
+    background-color: white;
+}
+/******paper-item******/
+body /deep/ paper-item {
+    padding-left: 0 !important;
+}
+/******paper-ripple******/
+body /deep/ .block paper-ripple,paper-item /deep/ paper-ripple {
+    color: white;
+}
+/******scroller******/
+.scroller {
+    height: 90px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 90%;
+}
+/******spec******/
+.spec {
+    border: 1px solid rgb(225,225,225);
+    display: block;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 50%;
+}
+
+.speccat {
+    font-size: 20px;
+}
+
+.specitem {
+    color: #0091ea;
+    display: block;
+    font-size: 18px;
+    overflow: hidden;
+    padding: 16px 8px;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/******swing******/
+.swing {
+    color: white;
+}
+/******text******/
+.text {
+    font-size: 20px;
+}
+
+@media all and (max-width:1034px) {
+    .dt {
+        width: 100%;
+    }
+
+    body /deep/ .main {
+        border-radius: 0;
+        width: 100%;
+    }
+
+    body /deep/ .medium {
+        width: 304px;
+    }
+
+    .spec {
+        width: 90%;
+    }
+}

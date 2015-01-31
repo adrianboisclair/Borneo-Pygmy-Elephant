@@ -1,0 +1,27 @@
+<meta name="description" content="WebsiteContent - Type Content and Information about home page Here!"/>
+<link rel="import" href="main-menu.html"/>
+<polymer-element name="home-page" noscript>
+    <template>
+        <core-scaffold mode="waterfall">
+            <core-header-panel navigation flex mode="seamed" style="background-color: #000000">
+                <core-menu theme="core-dark-theme">
+                    <main-menu-1></main-menu-1>
+                </core-menu>
+            </core-header-panel>
+            <div class="bottom indent" tool>808OHANA</div>
+            <br/>
+            <br/>
+            <paper-shadow class="main" z="1">
+                <div class="header" flex>
+                    <span>Welcome to 808OHANA!</span>
+                </div>
+                <content select="div"></content>
+                <br/>
+                <div align="center">
+                    <content select="a"></content>
+                </div>
+                <br/><br/>
+            </paper-shadow>
+        </core-scaffold>
+    </template>
+</polymer-element>
